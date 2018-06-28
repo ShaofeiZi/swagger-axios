@@ -1,0 +1,36 @@
+{
+  "name": "swagger-axios",
+  "version": "1.0.0",
+  "description": "Swagger to  Axios Codegen",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.6",
+    "js-beautify": "^1.6.12",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-standard": "^7.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1"
+  },
+  "scripts": {
+    "api": "node example/create_api/index.js",
+    "yaml": "node example/create_yaml/index.js",
+    "md": "node example/create_md/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaofeiZi/swagger-axios.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShaofeiZi/swagger-axios/issues"
+  },
+  "homepage": "https://github.com/ShaofeiZi/swagger-axios#readme"
+}
